@@ -10,7 +10,7 @@
   [![Forks](https://img.shields.io/github/forks/Official-polar-team/NovusCLI.svg)]() 
   [![GitHub Issues](https://img.shields.io/github/issues/Official-polar-team/NovusCLI.svg)
   [![GitHub Stars](https://img.shields.io/github/stars/Official-polar-team/NovusCLI.svg)
-  [![License](https://img.shields.io/github/license/DiegoMagdaIeno/NovusCommnadLineEdition.svg?style=flat-square)](/LICENSE)
+  [![License](https://img.shields.io/github/license/Official-polar-team/NovusCLI.svg)
 
 </div>
 
