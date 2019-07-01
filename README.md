@@ -36,17 +36,16 @@ NovusCLI is a lite version of the full Novus package manager (Coming later this 
 Getting started for contributing to NovusCLI is very easy, you just need to follow the instructions below if you wish to build from source.
 
 ### Prerequisites
-In order to start building NovusCLI, you are going to need to have Apple's developer tools installed or xcode for example. You can get those [here](https://developer.apple.com/xcode/).
+In order to start building NovusCLI, you are going to need to have rustup and cargo installed (Installing rustup automatically installs cargo so just worry about rustup). You can get rustup [here](https://www.rust-lang.org/tools/install/).
 
-NovusCLI uses default Apple clang compiler so this is all you need, but getting MacPT is higly recommended.
+NovusCLI uses Rust's Rust compiler so this is all you need, but getting MacPT is higly recommended.
 
-### Installing
+### Building
 
 For installation NovusCLI makes it really easy:
 
-* cd into the directory
-* Run make 
-* Run sudo make install
+* cd into the nvs directory.
+* Run cargo build --release
 * Enjoy Novus commnad line edition!
 
 This are all the steps that you need to follow to get NovusCLI running on your system!
@@ -75,9 +74,9 @@ Using NovusCLI is a lot of fun, as you see, and it doesnt require you to use the
 - [Project Serna](https://sernarepo.com/) - Main repository.
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@DiegoMagdaleno](https://github.com/DiegoMagdaIeno) - NVS build and implementation.
+- [@DiegoMagdaleno](https://github.com/DiegoMagdaIeno) - Initial C++ build.
 - [@SmushyTaco](https://github.com/realSmushyTaco) - Rust rewrite
-- [@Diatrus](https://github.com/Diatrus) - Source code cleaning, better help commands.
+- [@Diatrus](https://github.com/Diatrus) - Initial C++ build.
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
