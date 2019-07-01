@@ -70,16 +70,16 @@ NovusCLI has a memorable set of commands that will allow you to use it everyday 
 Using NovusCLI is a lot of fun, as you see, and it doesnt require you to use the "sudo" prefix.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [C++](http://www.cplusplus.com/) - Main programming language.
+- [RustLang](https://www.rust-lang.org/) - Main programming language.
 - [MacPT](https://github.com/DiegoMagdaIeno/MacPT) - Backend/Package manager.
 - [Project Serna](https://sernarepo.com/) - Main repository.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@DiegoMagdaleno](https://github.com/DiegoMagdaIeno) - NVS build and implementation.
+- [@SmushyTaco](https://github.com/realSmushyTaco) - Rust rewrite
 - [@Diatrus](https://github.com/Diatrus) - Source code cleaning, better help commands.
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- [Sysget by emilengler](https://github.com/emilengler/sysget) 
 - [PacAPT by ICY](https://github.com/icy/pacapt)
