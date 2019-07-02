@@ -43,15 +43,15 @@ fn main() {
 			//Prints about menu.
 			println!("About Novus CLI\nCopyright (C) 2019 Polar Development.\nhttp://randomlink.com\n\nCopyright 2019 Polar Team\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License./nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\nNovus CLI is made possible by the following software and people: \n\nNikan Radan (SmushyTaco) for writing it\nAPT by Debian: https://packages.debian.org/stretch/apt\nDiego Magdaleno & Diatrus for hosting it on Project Serna: https://sernarepo.com/");
 			process::exit(0);
-			//Checks if any of the entries with 2 arguments were entered with only 1 argument.
-		} else if args[1] == "search" || args[1] == "install" || args[1] == "reinstall" || args[1] == "remove" || args[1] == "info" {
-			eprintln!("{:?} has two arguments but you only entered one, run \"nvs help\" to check how to properly use {:?}.", args[1], args[1]);
-
-			process::exit(1);
 		} else if args[1] == "edit-sources" {
 			//Runs sudo apt edit-sources
 			Command::new("sudo").arg("apt").arg("edit-sources").status().expect("Something went wrong.");
 			process::exit(0);
+			//Checks if any of the entries with 2 arguments were entered with only 1 argument.
+		} else if args[1] == "search" || args[1] == "install" || args[1] == "reinstall" || args[1] == "remove" || args[1] == "info" {
+			//Gives error message if only 1 argument was inputted for something that requires 2 arguments.
+			eprintln!("{:?} has two arguments but you only entered one, run \"nvs help\" to check how to properly use {:?}.", args[1], args[1]);
+			process::exit(1);
 		} else {
 			eprintln!("Unknown operation {:?}. Type \"nvs help\" to see the list of available commands.", args[1]);
 			process::exit(1);
