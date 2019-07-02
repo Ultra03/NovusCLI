@@ -38,7 +38,7 @@ Getting started for contributing to NovusCLI is very easy, you just need to foll
 ### Prerequisites
 In order to start building NovusCLI, you are going to need to have rustup and cargo installed (Installing rustup automatically installs cargo so just worry about rustup). You can get rustup [here](https://www.rust-lang.org/tools/install/).
 
-NovusCLI uses Rust's Rust compiler so this is all you need, but getting MacPT is higly recommended.
+NovusCLI uses Rust's Rust compiler so this is all you need, but getting [MacPT](https://github.com/Official-polar-team/MacPT) is higly recommended.
 
 ### Building
 
@@ -76,7 +76,7 @@ Using NovusCLI is a lot of fun, as you see, and it doesnt require you to use the
 ## ✍️ Authors <a name = "authors"></a>
 - [@DiegoMagdaleno](https://github.com/DiegoMagdaIeno) - Initial C++ build.
 - [@Diatrus](https://github.com/Diatrus) - Initial C++ build.
-- [@SmushyTaco](https://github.com/realSmushyTaco) - Rust rewrite.
+- [@SmushyTaco](https://github.com/realSmushyTaco) - Rust rewrite
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
