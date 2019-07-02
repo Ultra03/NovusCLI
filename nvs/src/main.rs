@@ -46,6 +46,7 @@ fn main() {
 			//Checks if any of the entries with 2 arguments were entered with only 1 argument.
 		} else if args[1] == "search" || args[1] == "install" || args[1] == "reinstall" || args[1] == "remove" || args[1] == "edit-sources" {
 			eprintln!("{:?} has two arguments but you only entered one, run \"nvs help\" to check how to properly use {:?}.", args[1], args[1]);
+
 			process::exit(1);
 		} else {
 			eprintln!("Unknown operation {:?}. Type \"nvs help\" to see the list of available commands.", args[1]);
@@ -86,3 +87,11 @@ fn main() {
 		}
 	}
 }
+
+
+
+
+
+
+
+
