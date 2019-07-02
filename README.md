@@ -75,8 +75,8 @@ Using NovusCLI is a lot of fun, as you see, and it doesnt require you to use the
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@DiegoMagdaleno](https://github.com/DiegoMagdaIeno) - Initial C++ build.
-- [@SmushyTaco](https://github.com/realSmushyTaco) - Rust rewrite
 - [@Diatrus](https://github.com/Diatrus) - Initial C++ build.
+- [@SmushyTaco](https://github.com/realSmushyTaco) - Rust rewrite
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
